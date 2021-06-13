@@ -5,6 +5,6 @@ module.exports = {
     src: '/_dist_',
   },
   buildOptions: {
-    baseUrl: 'https://areyouivan.github.io/fox',
+    baseUrl: 'https://areyouivan.github.io/fox/',
   },
 }
