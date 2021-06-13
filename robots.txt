@@ -1,0 +1,17 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow:
+
+
+TO-DO
+1. ✅HTML (images).
+2. ✅HTML Images -> JS.
+3. ✅Random images.
+4. ✅Eventos - DOM -> Add Images.
+5. ✅Intersection Observer.
+6. ✅Apply lazy loading to our images.
+
+---Challenges---
+1. Add grey square loading.
+2. Add clener button.
+3. Console report to watch the images loaded and added.

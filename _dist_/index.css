@@ -1,0 +1,21 @@
+@import "../_snowpack/pkg/tailwindcss/dist/base.css";
+@import "../_snowpack/pkg/tailwindcss/dist/components.css";
+@import "../_snowpack/pkg/tailwindcss/dist/utilities.css";
+
+.wrapper {
+  background-image: url(fox.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.header {
+  background-image: url(./foxlogo.png);
+  /* background-COLOR: GREY; */
+  height: 200px;
+  margin: 0 auto;
+  width: 200px;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: 200px;
+}
+
