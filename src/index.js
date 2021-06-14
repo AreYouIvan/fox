@@ -34,7 +34,7 @@ const addAction = () => {
   const newImage = makeImageNode();
   mountNode.appendChild(newImage);
   registerImage(newImage);
-  console.log(`Images Total: ${elementsAdded(parent)}`)
+  console.log(`💚 Images Total: ${elementsAdded(parent)}`)
 };
 
 const parent = document.querySelector("#images");
