@@ -13,7 +13,7 @@
       type="text/css"
       href="%PUBLIC_URL%/_dist_/index.css"
     />
-    <title>Snowpack & Tailwind App</title>
+    <title>Random Fox</title>
   </head>
   <body>
     <div class="py-10 max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -27,15 +27,17 @@
             tracking-wide
             uppercase
           "
-        >
-          By: @areyouivan
+          >
+          By: <a href="https://twitter.com/areyouivan" target="_blank" style="text-decoration: dashed;">@areyouivan</a>
         </p>
-        <div class="header">
+        <a href="https://twitter.com/areyouivan" target="_blank" style="text-decoration: dashed;">
+          <div class="header">
+          </div>
+        </a>
           <!-- <img width="300" src="foxlogo.png" alt=""> -->
-        </div>
         <h3
           class="
-            mt-2
+            mt-0
             text-3xl
             leading-8
             font-extrabold
@@ -44,15 +46,52 @@
             sm:text-4xl sm:leading-10
           "
         >
-          Zorritos bonitos
+          Random Fox
         </h3>
-        <p class="mt-4 max-w-2xl text-xl leading-7 text-gray-500 mx-auto">
-          Site in building..
+        <p class="mt-5 mb-5 max-w-2xl text-xl leading-7 text-gray-500 mx-auto">
+          👋Hey there! <br />
+          Welcome to my project! this projects was built in <b>Tailwind</b
+          ><br />
+          Here I learned how to manipulate the <b> DOM. </b>
+          This project was a great experience for me, I hope you enjoyed. Thank you and Bye!
         </p>
-        <button id="addImage" class="p-3 " >Add Image</button>
-        <button id="remove" class="p-3 " >Remove</button>
-        <div id="images">
-        </div>
+        <button
+          id="addImage"
+          class="
+            bg-blue-500
+            hover:bg-blue-700
+            text-white
+            font-bold
+            py-2
+            px-4
+            mr-2
+            rounded
+            focus:outline-none
+            transition duration-250 ease-in-out over:bg-red-250
+            transform hover:-translate-y-1 hover:scale-110
+          "
+        >
+          Add Image
+        </button>
+        <button
+          id="remove"
+          class="
+            bg-red-500
+            hover:bg-red-700
+            text-white
+            font-bold
+            ml-2
+            py-2
+            px-4
+            rounded
+            focus:outline-none
+            transition duration-250 ease-in-out over:bg-red-250
+            transform hover:-translate-y-1 hover:scale-110
+          "
+        >
+          Remove
+        </button>
+        <div id="images"></div>
       </div>
     </div>
     <script type="module" src="%PUBLIC_URL%/_dist_/index.js"></script>

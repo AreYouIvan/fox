@@ -12,6 +12,6 @@ TO-DO
 6. ✅Apply lazy loading to our images.
 
 ---Challenges---
-1. Add grey square loading.
-2. Add clener button.
-3. Console report to watch the images loaded and added.
+1. ✅Add grey square loading.
+2. ✅Add clener button.
+3. ✅Console report to watch the images loaded and added.
