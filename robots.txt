@@ -15,3 +15,6 @@ TO-DO
 1. ✅Add grey square loading.
 2. ✅Add clener button.
 3. ✅Console report to watch the images loaded and added.
+---Challenges 2---
+1. ✅Make it like a pinterest.
+2. ✅Make an image transition.

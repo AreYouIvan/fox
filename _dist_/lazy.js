@@ -11,7 +11,7 @@ const loadImage = (entry) => {
   image.src = url;
   observer.unobserve(container)
   const nodeList = container.parentNode.childNodes.length;
-  console.log(`Images Loaded: ${nodeList}`)
+  console.log(`💙 Images Loaded: ${nodeList}`)
 
 }
 
